@@ -1,9 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"index.html#autotoc_md98":[0,0],
-"index.html#autotoc_md99":[0,1],
-"modules.html":[8],
-"namespacemembers.html":[9,1,0],
 "namespacemembers_func.html":[9,1,1],
 "namespacemembers_type.html":[9,1,3],
 "namespacemembers_vars.html":[9,1,2],
