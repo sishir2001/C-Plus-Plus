@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d0/d48/binary__exponentiation_8cpp.htm
 </div><!--header-->
 <div class="contents">
 
-<p>Binary exponentiation for calculating power Implemented this algorithm :<a href="https://cp-algorithms.com/algebra/binary-exp.html">https://cp-algorithms.com/algebra/binary-exp.html</a> Time complexity : O(log(n)) Space complexity : O(1)  
+<p>Binary exponentiation for calculating power.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;cassert&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
@@ -130,8 +130,8 @@ Functions</h2></td></tr>
 <tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Binary exponentiation for calculating power Implemented this algorithm :<a href="https://cp-algorithms.com/algebra/binary-exp.html">https://cp-algorithms.com/algebra/binary-exp.html</a> Time complexity : O(log(n)) Space complexity : O(1) </p>
-<dl class="section author"><dt>Author</dt><dd><a href="https://github.com/sishir2001" target="_blank">Jaladi Saai Sishir</a> </dd></dl>
+<div class="textblock"><p >Binary exponentiation for calculating power. </p>
+<p >reference link :<a href="https://cp-algorithms.com/algebra/binary-exp.html">https://cp-algorithms.com/algebra/binary-exp.html</a> Time complexity : O(log(n)) Space complexity : O(1) </p><dl class="section author"><dt>Author</dt><dd><a href="https://github.com/sishir2001" target="_blank">Jaladi Saai Sishir</a> </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a7866ad631045cb3b847232a524c74189" name="a7866ad631045cb3b847232a524c74189"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7866ad631045cb3b847232a524c74189">&#9670;&nbsp;</a></span>binaryExponentiation()</h2>
@@ -168,18 +168,18 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>power(x,n) i.e x^n of type long (64 bits) </dd></dl>
-<div class="fragment"><div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>                                           {</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    int64_t res = 1;  <span class="comment">// variable for storing the final result</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordflow">while</span> (n != 0) {</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keywordflow">if</span> (n % 2 == 1) {</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            <span class="comment">// last bit is 1</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            res *= x;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        }</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        x *= x;  <span class="comment">// exponentiation</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        n /= 2;  <span class="comment">// right shifting</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    }</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordflow">return</span> res;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>}</div>
+<div class="fragment"><div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                                           {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    int64_t res = 1;  <span class="comment">// variable for storing the final result</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordflow">while</span> (n != 0) {</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">if</span> (n % 2 == 1) {</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            <span class="comment">// last bit is 1</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            res *= x;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        }</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        x *= x;  <span class="comment">// exponentiation</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        n /= 2;  <span class="comment">// right shifting</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    }</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordflow">return</span> res;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -224,11 +224,11 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 on exit </dd></dl>
-<div class="fragment"><div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>                                 {</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <a class="code hl_function" href="../../d0/d48/binary__exponentiation_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a>();  <span class="comment">// run self-test implementations</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>}</div>
-<div class="ttc" id="abinary__exponentiation_8cpp_html_aa8dca7b867074164d5f45b0f3851269d"><div class="ttname"><a href="../../d0/d48/binary__exponentiation_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a></div><div class="ttdeci">static void test()</div><div class="ttdoc">Self-test implementations.</div><div class="ttdef"><b>Definition:</b> binary_exponentiation.cpp:50</div></div>
+<div class="fragment"><div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>                                 {</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <a class="code hl_function" href="../../d0/d48/binary__exponentiation_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a>();  <span class="comment">// run self-test implementations</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>}</div>
+<div class="ttc" id="abinary__exponentiation_8cpp_html_aa8dca7b867074164d5f45b0f3851269d"><div class="ttname"><a href="../../d0/d48/binary__exponentiation_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a></div><div class="ttdeci">static void test()</div><div class="ttdoc">Self-test implementations.</div><div class="ttdef"><b>Definition:</b> binary_exponentiation.cpp:51</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -263,20 +263,20 @@ Here is the call graph for this function:</div>
 
 <p>Self-test implementations. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-<div class="fragment"><div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>                   {</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    assert(bit_manipulation::binary_exponentiation::binaryExponentiation(</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>               2, 2) == 4);  <span class="comment">// x = 2 n = 2 return 4</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    assert(bit_manipulation::binary_exponentiation::binaryExponentiation(</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>               3, 2) == 9);  <span class="comment">// x = 3 n = 2 return 9</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    assert(bit_manipulation::binary_exponentiation::binaryExponentiation(</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>               4, 2) == 16);  <span class="comment">// x = 4 n = 2 return 16</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    assert(bit_manipulation::binary_exponentiation::binaryExponentiation(</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>               5, 2) == 25);  <span class="comment">// x = 5 n = 2 return 25</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    assert(bit_manipulation::binary_exponentiation::binaryExponentiation(</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>               6, 2) == 36);  <span class="comment">// x = 6 n = 2 return 36</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;All tests passed&quot;</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>              &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>}</div>
+<div class="fragment"><div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                   {</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    assert(bit_manipulation::binary_exponentiation::binaryExponentiation(</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>               2, 2) == 4);  <span class="comment">// x = 2 n = 2 return 4</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    assert(bit_manipulation::binary_exponentiation::binaryExponentiation(</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>               3, 2) == 9);  <span class="comment">// x = 3 n = 2 return 9</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    assert(bit_manipulation::binary_exponentiation::binaryExponentiation(</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>               4, 2) == 16);  <span class="comment">// x = 4 n = 2 return 16</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    assert(bit_manipulation::binary_exponentiation::binaryExponentiation(</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>               5, 2) == 25);  <span class="comment">// x = 5 n = 2 return 25</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    assert(bit_manipulation::binary_exponentiation::binaryExponentiation(</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>               6, 2) == 36);  <span class="comment">// x = 6 n = 2 return 36</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;All tests passed&quot;</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>              &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>}</div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
 </div><!-- fragment -->
 </div>
